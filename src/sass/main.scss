@@ -1,0 +1,26 @@
+//utils
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+
+//Base styles
+@import './normalize.scss';
+@import './base/base.scss';
+@import './base/fonts.scss';
+
+//main page layout
+@import './main_page_layout/header/header';
+@import './main_page_layout/main/services';
+@import './main_page_layout/main/team';
+@import './main_page_layout/footer/footer';
+//components
+@import './components/logo';
+@import './components/navigation/navigation';
+@import './components/main-title';
+@import './components/learn-button.scss';
+@import './components/sections-title.scss';
+@import './components/services/services-list';
+@import './components/team/section-descriptions';
+@import './components/team/team-list';
+@import './components/overlay';
+@import './components/subscribe-form.scss';

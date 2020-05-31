@@ -1,0 +1,36 @@
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-form__input {
+  border: 1px solid $borderColor;
+  width: 232px;
+  height: 40px;
+  font-family: $secondaryFont;
+  font-style: italic;
+  line-height: 1.6;
+  padding-left: 10px;
+
+  &::placeholder {
+    color: $inputTextColor;
+    font-style: italic;
+  }
+
+  &:invalid {
+    border: 1px solid $afterColor;
+  }
+}
+
+.subscribe-form__button {
+  background-color: $izumrudColor;
+  width: 150px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+  font-family: $mainFont;
+  color: $primaryWhiteColor;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}

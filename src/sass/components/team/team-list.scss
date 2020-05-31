@@ -1,0 +1,39 @@
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.team-list__item-img-wrapper {
+  position: relative;
+  transition: all 0.2s;
+  margin-bottom: 29px;
+}
+
+.team-list__item:hover .team-list__item-img-wrapper,
+.team-list__item:focus .team-list__item-img-wrapper {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 #95e1d3;
+  cursor: pointer;
+}
+
+.team-list__item-title {
+  font-family: $mainFont;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $greyColor;
+  margin: 0 0 10px 0;
+}
+
+.team-list__item-position {
+  font-family: $secondaryFont;
+  color: $lightGreyColor;
+  font-style: italic;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}

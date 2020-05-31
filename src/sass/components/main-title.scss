@@ -1,0 +1,21 @@
+.main-title {
+  font-family: $mainFont;
+  font-size: 150px;
+  font-weight: 700;
+  width: 820px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 102px;
+  letter-spacing: -5px;
+  line-height: 1;
+}
+.main-title_italic {
+  font-family: $italicFont;
+  display: block;
+  font-size: 72px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  text-transform: none;
+  letter-spacing: 0px;
+}
