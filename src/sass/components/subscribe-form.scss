@@ -17,7 +17,7 @@
     font-style: italic;
   }
 
-  &:invalid {
+  &:invalid:not(:placeholder-shown) {
     border: 1px solid $afterColor;
   }
 }

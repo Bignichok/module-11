@@ -4,40 +4,28 @@
   align-items: baseline;
 }
 
+.navigation-wrp {
+  display: flex;
+}
+
 .navigation-list {
   @extend %list;
   display: flex;
   text-transform: uppercase;
   font-family: $mainFont;
 }
-.navigation-list__item:not(:last-child) {
+
+.navigation-list__item {
   margin-right: 54px;
 }
+
 .navigation-list__item-link {
   color: inherit;
   transition: all linear 0.2s;
   padding-bottom: 10px;
+
   &:hover {
     color: $highlightingColor;
     border-bottom: 3px solid $highlightingColor;
-  }
-}
-
-.navigation-list__item-button {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border: none;
-  background-color: transparent;
-}
-.navigation-list__item-button svg {
-  display: block;
-  width: 20px;
-  height: 20px;
-  fill: #ffffff;
-  transition: all ease-in-out 0.3s;
-  &:hover {
-    fill: rgb(252, 227, 138);
-    transform: scale(2);
   }
 }

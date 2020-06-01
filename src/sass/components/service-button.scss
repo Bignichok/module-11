@@ -1,0 +1,24 @@
+.cart-button {
+  margin-right: 54px;
+}
+
+.service-button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+
+  & svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+    transition: all ease-in-out 0.3s;
+  }
+
+  &:hover svg {
+    fill: rgb(252, 227, 138);
+    transform: scale(2);
+  }
+}
