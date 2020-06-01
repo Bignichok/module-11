@@ -15,11 +15,6 @@
   justify-content: center;
   transition: all 0.2s linear;
   opacity: 0;
-
-  &:hover,
-  &:focus {
-    opacity: 1;
-  }
 }
 
 .overlay-list {
