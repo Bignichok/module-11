@@ -1,0 +1,37 @@
+.socials-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.socials-list-item {
+  width: 380px;
+}
+
+.socials-list__item-link {
+  display: flex;
+  background-color: $highlightingColor;
+  width: 58px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+
+  & svg {
+    width: 26px;
+    height: 26px;
+    fill: $afterColor;
+  }
+
+  &:hover svg,
+  &:focus svg {
+    fill: $primaryWhiteColor;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $afterColor;
+  }
+}
